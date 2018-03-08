@@ -46,7 +46,7 @@ And run the follow comands in terminal (change the project location)
 
 ```
 sudo chmod 644 /lib/systemd/system/raspycammonitor.service
-chmod +x /your/local/path/raspycammonitor.py
+chmod +x /your/local/path/monitor.py
 sudo systemctl daemon-reload
 sudo systemctl enable raspycammonitor.service
 sudo systemctl start raspycammonitor.service
