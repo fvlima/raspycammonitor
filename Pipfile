@@ -1,0 +1,5 @@
+[packages]
+picamera = "*"
+opencv-python = "*"
+numpy = "==1.13.0" # pinned because a dependency error with opencv-python
+prettyconf = "*"
